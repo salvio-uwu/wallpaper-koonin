@@ -85,3 +85,27 @@ p {
   margin-top: 200px;
   font-weight: 300;
 }
+
+/* Buscador de Google */
+form.search-box {
+  margin-top: 60px;
+}
+
+form.search-box input[type="text"] {
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  max-width: 90%;
+  background: rgba(255, 255, 255, 0.85);
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+form.search-box input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
